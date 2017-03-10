@@ -24,7 +24,7 @@ import com.trerpc.protocol.RpcResponse;
  */
 public class RpcFuture implements Future{
 	private static final Logger LOGGER = LoggerFactory.getLogger(RpcFuture.class);
-	RpcResponse response;
+	private RpcResponse response;
 	
 	private Sync sync;
 	private RpcRequest request;

@@ -3,6 +3,7 @@ package com.trerpc.server;
 import static org.hamcrest.CoreMatchers.nullValue;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -39,7 +40,7 @@ public class RpcHandler extends SimpleChannelInboundHandler<RpcRequest> {
 		LOGGER.info("get a meesage ********" + req.getMethodName());
 		System.out.println(req.getClassName());
 		System.out.println(req.getParameterTypes()[0].getName());
-		System.out.println(req.getParameters());
+		System.out.println(Arrays.toString(req.getParameters()));
 		
 		response.setRequestID(req.getRequestID());
 		try {

@@ -66,6 +66,15 @@ public class RpcProxy {
 		});
 		return t;
 	}
+	
+
+	public RpcCaller createAsyn(Class<?> interfaceClass){
+		RpcCaller call = new RpcCaller(reqID ,interfaceClass);
+		return call;
+	}
+	
+	
+	
 
 }
 
