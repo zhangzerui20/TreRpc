@@ -23,5 +23,4 @@ or you will use the asyn RPC call by this:
 		RpcCaller caller = proxy.createAsyn(TestService2.class);
 		RpcFuture future = caller.call("add", 5, 7);
 		int resa = (Integer) future.get();
-		LOGGER.error("res is " + resa);
 ```
