@@ -4,8 +4,8 @@
 	
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tre</groupId>
-  <artifactId>TreRpcServer</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <artifactId>TreRpcFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   
 
   
