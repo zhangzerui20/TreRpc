@@ -24,3 +24,4 @@ or you will use the asyn RPC call by this:
 		RpcFuture future = caller.call("add", 5, 7);
 		int resa = (Integer) future.get();
 ```
+thanks for asking
